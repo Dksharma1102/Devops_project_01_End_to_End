@@ -1,0 +1,5 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+app.cpython-312.pyc
+test_fun.cpython-312-pytest-7.4.4.pyc

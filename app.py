@@ -5,10 +5,8 @@ app=Flask(__name__)
 def no(nothing):
     return "give the value in side url like this: /fact/<your number>"
 
-def fa(x):
-    
-
-    if x <0:
+def fa(x):   
+    if x < 0:
         return "give correct number in positive"
     elif(x==1 or x==0):
         return 1
@@ -24,4 +22,4 @@ def fact(n):
     return f"Factorial of {n} is {result}"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0", port=5000)

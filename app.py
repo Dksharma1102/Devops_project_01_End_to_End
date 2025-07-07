@@ -3,7 +3,7 @@ app=Flask(__name__)
 
 @app.route("/<nothing>")
 def no(nothing):
-    return "give the value in side url like this: /fact/<your number>"
+    return "give the value in side url like this: /fact/[any positive number ]"
 
 def fa(x):   
     if x < 0:
